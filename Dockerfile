@@ -1,4 +1,4 @@
-FROM ubuntu:16.04.1
+FROM ubuntu:16.04
 
 MAINTAINER Matthias Schippling "strombringer60k@gmail.com"
 LABEL version="1.0.0"
