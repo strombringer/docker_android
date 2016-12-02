@@ -21,6 +21,8 @@ RUN wget --output-document=android-sdk.tgz --quiet http://dl.google.com/android/
 	tar --no-same-owner -xzf android-sdk.tgz && \
 	rm -f android-sdk.tgz
 
+RUN ls -al
+
 # Setup environment
 ENV ANDROID_HOME /opt/android-sdk-linux
 ENV PATH ${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
